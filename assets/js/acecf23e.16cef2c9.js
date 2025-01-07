@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcoding_convention=self.webpackChunkcoding_convention||[]).push([[1903],{6405:o=>{o.exports=JSON.parse('{"blogBasePath":"/coding-convention/blog","blogTitle":"Blog","authorsListPath":"/coding-convention/blog/authors"}')}}]);
