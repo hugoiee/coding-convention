@@ -1,0 +1,19 @@
+{
+  "name": "iee-commitlint-config",
+  "version": "0.0.0",
+  "description": "Git 提交规范化",
+  "author": "hugo <hugoiee@icloud.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//hugoiee/coding-convention.git"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^8.0.0"
+  }
+}

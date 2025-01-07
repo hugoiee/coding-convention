@@ -1,0 +1,22 @@
+{
+  "name": "iee-markdownlint-config",
+  "version": "0.0.0",
+  "description": "文档规范",
+  "author": "hugo <hugoiee@icloud.com>",
+  "license": "MIT",
+  "main": "index.json",
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "homepage": "",
+  "bugs": {
+    "url": "https://github.com//hugoiee/coding-convention"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//hugoiee/coding-convention.git"
+  },
+  "peerDependencies": {
+    "markdownlint": "^0.37.3"
+  }
+}
