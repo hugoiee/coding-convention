@@ -10,7 +10,7 @@ sidebar_position: 2
 
 ### 1.1. 编码风格
 
-![style](./img/style.svg)
+![style](./img/css.png)
 
 详细规则如下：
 

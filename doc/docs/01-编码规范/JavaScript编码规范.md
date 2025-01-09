@@ -10,7 +10,7 @@ sidebar_position: 3
 
 ## 1. 编码风格
 
-![javascript style](./img//JavaScript.svg)
+![javascript style](./img/js.png)
 
 详细规则如下：
 

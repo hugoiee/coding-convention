@@ -5,12 +5,12 @@ sidebar_position: 4
 # TypeScript 编码规范
 
 :::tip
-`TypeScript` 是微软开发的一款开源编程语言，它是 `JavaScript` 的超集，因此其编码规范和配套 `Lint` 工具也与[JavaScript 编码规范](./javascript.md)一脉相承。
+`TypeScript` 是微软开发的一款开源编程语言，它是 `JavaScript` 的超集，因此其编码规范和配套 `Lint` 工具也与[JavaScript编码规范](./JavaScript编码规范.md)一脉相承。
 :::
 
 ## 编码风格
 
-![typescript style](./img//typescript.svg)
+![typescript style](./img/ts.png)
 
 - 【强制】重载的函数必须写在一起 [@typescript-eslint/adjacent-overload-signatures](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/adjacent-overload-signatures.md)
 
