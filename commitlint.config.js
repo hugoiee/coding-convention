@@ -1,3 +1,1 @@
-module.exports = {
-  extends: ['./packages/commitlint-config/index.js'],
-};
+export default {extends: ['./packages/commitlint-config/index.js']};

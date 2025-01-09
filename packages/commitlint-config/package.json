@@ -1,12 +1,12 @@
 {
   "name": "iee-commitlint-config",
+  "type": "module",
   "version": "1.2.0",
   "description": "Git 提交规范化",
   "author": "hugo <hugoiee@icloud.com>",
-  "homepage": "",
+  "homepage": "https://github.com/hugoiee/coding-convention",
   "license": "MIT",
   "main": "index.js",
-  "type": "module",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -17,5 +17,8 @@
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^8.0.0"
   },
-  "gitHead": "34a1861fec0d534c2fd861b21f4a3f53752aa5c9"
+  "engines": {
+    "node": ">=v18"
+  },
+  "gitHead": "2bd75849bc98379fb2fb7a0dfe708ef8d19ec2d3"
 }

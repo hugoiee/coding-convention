@@ -16,10 +16,8 @@ npm install iee-commitlint-config @commitlint/cli --save-dev
 
 在 `commitlint.config.js` 中集成本包:
 
-```javascript
-module.exports = {
-	extends: ['iee-commitlint-config'],
-};
+```bash
+echo "export default { extends: ['iee-commitlint-config'] };" > commitlint.config.js
 ```
 
 ## 设置 git hook
@@ -29,14 +27,14 @@ module.exports = {
 首先安装 husky：
 
 ```bash
-npm install husky --save-dev
+npm install --save-dev husky
 ```
 
 然后执行添加`commit-msg`:
 
 ```bash
 npx husky init
-echo "npx commitlint --edit $1" > .husky/commit-msg
+echo "npx --no -- commitlint --edit" > .husky/commit-msg
 ```
 
 更多信息可参考 [commitlint 文档](https://commitlint.js.org/#/guides-local-setup?id=install-husky)。

@@ -3,9 +3,10 @@
   "private": true,
   "description": "前端研发编码规范工程化",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "prepare": "husky install",
+    "prepare": "husky",
     "init": "pnpm install",
     "clean": "lerna clean && rm -rf node_modules",
     "test": "lerna run test",
