@@ -1,6 +1,6 @@
 {
   "name": "iee-commitlint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Git 提交规范化",
   "author": "hugo <hugoiee@icloud.com>",
   "homepage": "",
