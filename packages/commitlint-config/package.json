@@ -6,6 +6,7 @@
   "homepage": "",
   "license": "MIT",
   "main": "index.js",
+  "type": "module",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

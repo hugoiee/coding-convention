@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   parserPreset: 'conventional-changelog-conventionalcommits',
   rules: {
     'body-leading-blank': [1, 'always'],
@@ -12,6 +12,6 @@ module.exports = {
     'subject-full-stop': [2, 'never', '.'],
     'type-case': [2, 'always', 'lower-case'],
     'type-empty': [2, 'never'],
-    'type-enum': [2, 'always', ['feat', 'fix', 'docs', 'style', 'perf','test', 'refactor','build', 'chore','other', 'revert','ci']],
+    'type-enum': [2, 'always', ['feat', 'fix', 'docs', 'style', 'perf', 'test', 'refactor', 'build', 'chore', 'other', 'revert', 'ci']],
   },
 };
