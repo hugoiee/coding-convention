@@ -100,8 +100,8 @@ importers:
         specifier: ^7.17.0
         version: 7.37.3(eslint@9.17.0(jiti@2.4.2))
       eslint-plugin-react-hooks:
-        specifier: ^4.6.2
-        version: 4.6.2(eslint@9.17.0(jiti@2.4.2))
+        specifier: ^5.1.0
+        version: 5.1.0(eslint@9.17.0(jiti@2.4.2))
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
@@ -3685,11 +3685,11 @@ packages:
     resolution: {integrity: sha512-iANfZsPWwUWT2czz3A7Ti7B5Iun8YvIMDe6c7VYEZAVjCZyZkB+djflAxOv1XD/TwQeFoEYhCoqaBRWFk5/vIA==}
     engines: {node: '>=0.10.0'}
 
-  eslint-plugin-react-hooks@4.6.2:
-    resolution: {integrity: sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ==}
+  eslint-plugin-react-hooks@5.1.0:
+    resolution: {integrity: sha512-mpJRtPgHN2tNAvZ35AMfqeB3Xqeo273QxrHJsbBEPWODRM4r0yB6jfoROqKEYrOn27UtRPpcpHc2UqyBSuUNTw==}
     engines: {node: '>=10'}
     peerDependencies:
-      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
 
   eslint-plugin-react@7.37.3:
     resolution: {integrity: sha512-DomWuTQPFYZwF/7c9W2fkKkStqZmBd3uugfqBYLdkZ3Hii23WzZuOLUskGxB8qkSKqftxEeGL1TB2kMhrce0jA==}
@@ -13058,7 +13058,7 @@ snapshots:
       jsx-ast-utils: 2.4.1
       requireindex: 1.2.0
 
-  eslint-plugin-react-hooks@4.6.2(eslint@9.17.0(jiti@2.4.2)):
+  eslint-plugin-react-hooks@5.1.0(eslint@9.17.0(jiti@2.4.2)):
     dependencies:
       eslint: 9.17.0(jiti@2.4.2)
 
