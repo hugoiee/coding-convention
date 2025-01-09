@@ -23,10 +23,12 @@ npm i -D iee-eslint-config @babel/core @babel/eslint-parser eslint-plugin-import
 
 ### 配置
 
-```json
-{
-  "extends": ["iee-eslint-config"]
-}
+```js
+export default [
+  {
+    "extends": ["iee-eslint-config"]
+  } 
+]
 ```
 
 ## JavaScript + React 项目 - iee-eslint-config/react
