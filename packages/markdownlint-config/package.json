@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "index.json",
   "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "homepage": "",
   "bugs": {
@@ -19,5 +19,5 @@
   "peerDependencies": {
     "markdownlint": "^0.37.3"
   },
-  "gitHead": "5bf567359d7a39a244c5f2834af063991bb4bde2"
+  "gitHead": "34a1861fec0d534c2fd861b21f4a3f53752aa5c9"
 }
