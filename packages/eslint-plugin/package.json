@@ -7,8 +7,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "prepublishOnly": "npm run test"
+    "test": "jest"
   },
   "publishConfig": {
     "registry": "https://registry.npmmirror.com/"
@@ -28,5 +27,5 @@
     "eslint": "^9.17.0",
     "jest": "^29.7.0"
   },
-  "gitHead": "53106631b11c89017ac861b7e0883b314b85fd46"
+  "gitHead": "be375e7bb0107e30d1a6def3b3bab52502ddc125"
 }
